@@ -1,0 +1,38 @@
+{
+  "name": "blob-quickstart-v12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html"
+  },
+  "keywords": [],
+  "browserslist": [
+    "last 1 Edge version",
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "last 1 safari version",
+    "last 1 webkit version"
+  ],
+  "requests": [
+    {
+      "image": {
+        "content": "BASE64_ENCODED_IMAGE"
+      },
+      "features": [
+        {
+          "type": "SAFE_SEARCH_DETECTION"
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.10.0",
+    "parcel": "^2.6.0"
+  },
+  "devDependencies": {
+    "util": "^0.12.4"
+  }
+}
