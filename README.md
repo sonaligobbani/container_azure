@@ -11,5 +11,5 @@
 
 
 Connect-AzAccount -UseDeviceAuthentication
-
+Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 
